@@ -212,6 +212,7 @@ $aero = array (		// code OACI => FullName , geographic bounds, airfield altitude
 	'LEOC'=> array('OCANA',"l.rec='LEOC' AND l.alt < 1435 AND (l.lat BETWEEN 39.93532 AND 39.93942 ) AND (l.lon BETWEEN -3.50955 AND -3.49153 )",735,''),
 	'LFCO'=> array('OLORON Herrere',"l.rec='LFCO' AND l.alt < 1000 AND (l.lat BETWEEN 43.15826 AND 43.16922 ) AND (l.lon BETWEEN -0.57303 AND -0.54985 )",300,''),	
 	'NZOA'=> array('OMARAMA',"(l.rec='NZOA' OR l.rec='Omarama') AND l.alt < 1115 AND (l.lat BETWEEN -44.49279 AND -44.47863 ) AND (l.lon BETWEEN 169.96722 AND 170.00432 )",415,''),
+	'OHSN'=> array('Oppershausen',"(l.rec='Oppershausen' OR l.rec='Ohausen') AND l.alt < 1000 AND (l.lat BETWEEN 52.596050 AND 52.596150) AND (l.lon BETWEEN 10.215070 AND 10.215170)",42,''),
 	'EFOP'=> array('ORIPAA',"l.rec='EFOP' AND l.alt < 801 AND (l.lat BETWEEN 60.86709 AND 60.88192 ) AND (l.lon BETWEEN 22.7266 AND 22.7572 )",101,''),
 	'LFOZ'=> array('ORLEANS Saint Denis de l\'Hotel',"l.rec='LFOZ' AND l.alt < 821 AND (l.lat BETWEEN 47.89231 AND 47.904 ) AND (l.lon BETWEEN 2.15426 AND 2.17488 )",121,''),	
 	'OTTSJO'=> array('Ottsjo',"l.rec='Ottsjo' AND l.alt < 1200 AND (l.lat BETWEEN 63.1862 AND 63.24159 ) AND (l.lon BETWEEN 12.90818 AND 13.16206 )",500,''),
